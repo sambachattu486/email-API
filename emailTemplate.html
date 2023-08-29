@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>mail</title>
+    <style>
+        pre{
+            font-family:Verdana, Geneva, Tahoma, sans-serif
+        }
+        p{
+            font-size: medium;
+        }
+    </style>
+</head>
+<body>
+    <div style="display:none;">
+        <h1 name="subject" >XMS Demo Request - New Lead From XMS Microsite</h1>
+    </div>
+
+    <p name="messageBody">Dear Engrowers,<br>We've got a request for the XMS demo, here are the details:<br></p>
+
+    <pre ><b>Name : {{.name}}{{.dynamicContent}}<br>Time : {{.time}}<br>Date : {{.date}}</b></pre>
+</body>
+</html>
